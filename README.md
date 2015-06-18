@@ -1,2 +1,3 @@
 # euler
-Euler solutions, done in Scala.
+
+Euler solutions, done in Scala to learn the language.

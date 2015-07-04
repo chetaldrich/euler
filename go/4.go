@@ -17,8 +17,8 @@ func isPalindrome(drome string) bool {
 
     // induction
     if drome[0] == drome[dromelen - 1] {
-        thing := drome[1:dromelen - 1]
-        return isPalindrome(thing)
+        substring := drome[1:dromelen - 1]
+        return isPalindrome(substring)
     }
 
     return false

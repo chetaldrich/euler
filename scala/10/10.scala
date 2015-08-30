@@ -1,5 +1,5 @@
 /**
- * Solution to Problem 10 in Scala.
+ * Solution to Euler 10
  */
 object Problem_10 {
   def main(args: Array[String]): Unit = {

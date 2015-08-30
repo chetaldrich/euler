@@ -10,6 +10,7 @@ object Problem_8 {
       .getLines
       .foldLeft("")((b, a) => b + a)
     val solution = numberString
+      .view
       .map(_.asDigit)
       .map(_.toLong)
       .sliding(13)

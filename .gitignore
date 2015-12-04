@@ -1,3 +1,7 @@
+
+# Cleans out build files
+clean.sh
+
 *.class
 *.log
 

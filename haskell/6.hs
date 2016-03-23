@@ -4,4 +4,4 @@ main :: IO ()
 main = print result
 
 result :: Integer
-result = sum [x * x | x <- [1..100]] - sum [1..100] ^ (2 :: Integer)
+result = sum [1..100] ^ (2 :: Integer) - sum [x * x | x <- [1..100]]
